@@ -138,7 +138,7 @@ public class MainFrame extends javax.swing.JFrame {
     }
     private boolean isBelowZero(String str) {
         double d = Double.parseDouble(str);  
-        return d<-273.74;
+        return d<-273.15;
     }
     /**
      * @param args the command line arguments
